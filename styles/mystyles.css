@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.scripture {
+  font-style:italic ;
+}
+
+.byulink {
+    text-decoration: underline;
+    color: blue;
+}
+
+.aboutme {
+        color: rgb(92, 92, 92)
+}
+
+.imgcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .imgcolumn {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+  
+  .imgrow::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.topbottom {
+  text-align: center;
+  font-size: 15px;
+  text-decoration: underline;
+  color: gray;
+}
+
+.contact {
+  text-align: center;
+  color: rgb(157, 157, 157); 
+  font-size: 12px;
+}
+
+
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
